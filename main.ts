@@ -19,7 +19,7 @@ basic.forever(function () {
         pins.digitalWritePin(DigitalPin.P1, 0)
         pins.digitalWritePin(DigitalPin.P2, 0)
     } else {
-        pins.analogWritePin(AnalogPin.P1, 0)
-        pins.analogWritePin(AnalogPin.P2, 120)
+        pins.analogWritePin(AnalogPin.P1, 357)
+        pins.analogWritePin(AnalogPin.P2, 0)
     }
 })
